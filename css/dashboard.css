@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'AkaPosse';
+  src: url('../font/AkaPosse.ttf') format('truetype');
+}
+
+
+body{
+background: radial-gradient(circle at top, #22273d, #000000);
+
+font-family: 'Montserrat', sans-serif;
+
+letter-spacing: 2px;
+}
+
+/* 🌍 CONTENEDOR */
+.contenedorGrupos{
+padding:60px;
+color:white;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400; /* texto normal */
+}
+
+/* 🧱 GRID AUTOMÁTICO */
+#grupos{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap:25px;
+}
+
+/* 🧊 CARD MEJORADA */
+.grupoCard{
+margin-bottom:20px;
+border-left:5px solid #ffffff;
+transition:.3s;
+padding:20px;
+border-radius:15px;
+background: linear-gradient(145deg, #ff7b00, #ff7b00);
+box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+text-align:center;
+}
+
+/* 🔥 HOVER PRO */
+.grupoCard:hover{
+transform:scale(1.05) translateY(-5px);
+box-shadow: 0 20px 40px rgb(0, 0, 0);
+}
+
+/* 🏆 TITULO */
+.grupoCard h2{
+font-size:26px;
+margin-bottom:10px;
+}
+
+/* 📊 TEXTO */
+.grupoCard p{
+opacity:0.7;
+margin-bottom:15px;
+}
+
+/* 🎯 BOTON PRO */
+.grupoBtn{
+padding:10px 20px;
+border:none;
+border-radius:10px;
+background:#000000;
+color:rgb(255, 136, 0);
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.grupoBtn:hover{
+background:#24110a;
+transform:scale(1.05);
+}
+
+.bloqueado{
+opacity: .55;
+filter: grayscale(100%);
+cursor: not-allowed;
+}
+
+.grupoBtn:disabled{
+background:#555;
+cursor:not-allowed;
+}

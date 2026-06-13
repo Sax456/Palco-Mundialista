@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/responsive.css">
+
+<link rel="stylesheet" href="css/global.css">
+
+<link rel="stylesheet" href="css/components.css">
+
+<link rel="stylesheet" href="css/dashboard.css">
+
+
+
+</head>
+
+<body>
+<div class="navbar">
+
+<div class="navLeft">
+
+<img src="IMG/logo TDT PERFIL.png" class="logo">
+
+<h2>TDT Mundial</h2>
+
+</div>
+
+<div class="navRight">
+
+<button onclick="volver()" class="btnBack">
+
+← Volver
+
+</button>
+
+<span id="puntosNavbar" class="puntosNavbar"></span>
+
+<span id="usuario">
+
+Usuario
+
+</span>
+
+<button onclick="logout()" class="btnLogout">
+
+Salir
+
+</button>
+
+</div>
+
+</div>
+
+<div class="titulos">
+<center>BIENVENIDO</center>
+</div>
+
+<div class="subtitulos">
+FASE DE GRUPOS MUNDIAL ⚽
+</div>
+
+</div>
+
+<div class="contenedorGrupos">
+
+<div id="grupos" class="gridGrupos"></div>
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+<script src="js/supabase.js"></script>
+<script src="js/terry.js"></script>
+<script src="js/auth.js"></script>
+
+
+<script src="js/dashboard.js"></script>
+<script src="js/navbar.js"></script>
+
+
+</body>
+
+</html>

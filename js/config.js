@@ -1,0 +1,1 @@
+const GROQ_API_KEY = "gsk_QQP5iCltof";
