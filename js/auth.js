@@ -23,7 +23,7 @@ function requireAuth(rolRequerido = "user") {
 }
 
 // ---- MOSTRAR REGISTRO (con animación al lado) ---------------
-const fechaLimite = new Date("2026-06-11");
+const fechaLimite = new Date("2026-06-30");
 
 function mostrarRegistro() {
   if (new Date() > fechaLimite) { alert("Registro cerrado"); return; }
@@ -77,7 +77,7 @@ async function registrar() {
     errorEl.textContent = "La cédula solo debe contener números";
     return;
   }
-  if (codigo !== "TDT2026") {
+  if (codigo !== "SD2026") {
     errorEl.textContent = "Código empresa incorrecto";
     return;
   }
