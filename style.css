@@ -10,7 +10,7 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  color: #ff9900;
+  color: #f58b13;
   position: relative;
   overflow: hidden;
 }
@@ -45,7 +45,7 @@ body::before {
 
 /* ---- CARD BASE ---- */
 .login {
-  background: #111827;
+  background: #040521;
   padding: 40px;
   font-family: 'AkaPosse';
   border-radius: 15px;
