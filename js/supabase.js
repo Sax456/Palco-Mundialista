@@ -11,4 +11,3 @@ SUPABASE_KEY
 );
 
 
-
